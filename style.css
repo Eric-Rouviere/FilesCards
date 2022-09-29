@@ -1,0 +1,19 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax( 200px, 1fr));
+}
+
+.cards{
+    width:100%;
+    min-height:200px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    box-shadow: 12px 12px 22px 10px rgb(234, 175, 230);
+
+}
